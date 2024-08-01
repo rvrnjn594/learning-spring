@@ -49,6 +49,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!--		To use Spring Data JPA, add the starter JPA depenency to pom.xml file.
+			This API defines a lot of different annotations like @Entity, @Column, @Table, etc.
+			Hiberante is an implementation of the JPA API which automatically gets configured in our application.
+-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

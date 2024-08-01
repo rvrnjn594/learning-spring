@@ -1,4 +1,4 @@
-package com.springdata.tennis_player;
+package com.learning.springdata.jdbc;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

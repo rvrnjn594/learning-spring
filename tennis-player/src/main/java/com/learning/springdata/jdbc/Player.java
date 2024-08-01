@@ -1,4 +1,4 @@
-package com.springdata.tennis_player;
+package com.learning.springdata.jdbc;
 
 import java.util.Date;
 
